@@ -17,7 +17,8 @@ var task1 = {
 	devInfo:function(){
 		var btnDev=document.getElementById("dev-info");
 		btnDev.addEventListener("click", function(){
-			//add your code to display developer information in 'p' block
+			document.getElementById("dev-info-container").innerHTML = "Bathelomew R Nwazodo" + "<br/>" +
+					 "IT Student<br/>" + "<a href='https://github.com/bathelomewn/ITE220-11-2016'a> www.com/bathelomewn/ITE220-11-2016</a>"
 
 		});
 	}
